@@ -6,7 +6,7 @@ const dashboard = () => {
     console.log("user from context==>", user);
 
     return (
-        <div>dashboard</div>
+        <div>admin-ashboard</div>
     )
 }
 
