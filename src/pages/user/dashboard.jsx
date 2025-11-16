@@ -4,7 +4,7 @@ import { AuthContext } from '../../context/Auth'
 
 const dashboard = () => {
   const { user } = useContext(AuthContext);
-  console.log("user from context==>", user);
+  console.log("user==>", user);
 
   return (
     <div>user-dashboard</div>

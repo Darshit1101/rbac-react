@@ -3,7 +3,7 @@ import { AuthContext } from '../../context/Auth'
 
 const dashboard = () => {
     const { user } = useContext(AuthContext);
-    console.log("user from context==>", user);
+    console.log("admin==>", user);
 
     return (
         <div>admin-ashboard</div>
